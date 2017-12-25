@@ -1,0 +1,87 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
+div {
+  position: relative;
+}
+.container-fluid {
+  padding: 0px;
+  background: red;
+  width: 100vw;
+  height: 100vh;
+}
+.quoteContainer {
+  text-align: center;
+  margin: auto;
+  margin-top: 15%;
+  width: 45vw;
+  height: responsive;
+  background: white;
+  border-radius: 7px;
+  padding: 20px;
+  display: table;
+
+}
+
+
+
+
+.quoteText {
+  font-size: 1.9em;
+  padding-top: 20px;
+}
+
+.quoteAuthor {
+  font-size: 1.25em;
+  text-align: right;
+  padding-top: 1.25em;
+  padding-bottom: 1.75em;
+
+}
+
+ #twitterButton{
+padding: 7px;
+float: left;
+margin: 5px;
+margin-bottom: 5px;
+width: 40px;
+height: 40px;
+border-radius: 5px;
+background: black;
+color:#fff;
+opacity: 1;
+cursor: pointer;
+
+}
+
+#twitterButton:hover, #newQuoteButton:hover {
+  opacity: 0.9;
+}
+
+
+#newQuoteButton {
+  float: right;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+@media all and (max-width: 500px) { /* screen size until 500px */
+    .quoteText {
+        font-size: 1.75em; /* 0.8x default size */
+        }
+        .quoteContainer {
+          margin-top: 20%;
+          width: auto;
+          height: auto;
+        }
+    }
+
+    .footer {
+      text-align: center;
+      color: white;
+      margin-top: 15px;
+    }
