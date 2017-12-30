@@ -50,6 +50,6 @@ $(document).ready(function() {
   });
 
   $('#twitterButton').on('click', function(event) {
-    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent('" ' + quote + '"' + '   -  ' + author));
+    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + quote + '"' + '   -  ' + author));
   });
 });
